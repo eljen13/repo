@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'db.php';
+require_once 'datab.php';
 require_once 'students.php';
 require_once 'sections.php';
 
