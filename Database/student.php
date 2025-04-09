@@ -1,5 +1,5 @@
 <?php
-require_once 'db.php';
+require_once 'datab.php';
 
 if (!isset($_GET['id'])) {
   echo "ID not provided";
