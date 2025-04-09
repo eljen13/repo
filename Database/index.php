@@ -1,5 +1,5 @@
 <?php
-require_once 'db.php';
+require_once 'datab.php';
 
 $students = $conn->query("SELECT * FROM student")->fetchAll(PDO::FETCH_ASSOC);
 ?>
